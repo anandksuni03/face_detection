@@ -1,5 +1,5 @@
 import cv2
-face_cap = cv2.CascadeClassifier("C:/python/Lib/site-packages/cv2/data/haarcascade_frontalface_default.xml")
+face_cap = cv2.CascadeClassifier("path to haarcascade_frontalface_default.xml file in your pc")
 
 video_cap = cv2.VideoCapture(0) # to run the camera in run time
 while True :
